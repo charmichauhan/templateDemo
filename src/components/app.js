@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
-
-export default class App extends Component {
+import React from 'react';
+import Routes from "./Routes";
+export default class App extends React.Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+      <Routes/>
+      </div>
     );
   }
 }
